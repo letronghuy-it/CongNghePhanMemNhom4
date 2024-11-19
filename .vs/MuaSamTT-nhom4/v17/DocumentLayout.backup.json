@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\.net\\MuaSamTT-nhom4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|d:\\.net\\muasamtt-nhom4\\muasamtt_nhom4.module\\muasamthoitrangcode\\khach_hang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|solutionrelative:muasamtt_nhom4.module\\muasamthoitrangcode\\khach_hang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|d:\\.net\\muasamtt-nhom4\\muasamtt_nhom4.module\\muasamthoitrangcode\\hoa_don.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|solutionrelative:muasamtt_nhom4.module\\muasamthoitrangcode\\hoa_don.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|d:\\.net\\muasamtt-nhom4\\muasamtt_nhom4.module\\muasamthoitrangcode\\thong_ke.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|solutionrelative:muasamtt_nhom4.module\\muasamthoitrangcode\\thong_ke.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|d:\\.net\\muasamtt-nhom4\\muasamtt_nhom4.module\\muasamthoitrangcode\\ct_dat_hang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|solutionrelative:muasamtt_nhom4.module\\muasamthoitrangcode\\ct_dat_hang.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|d:\\.net\\muasamtt-nhom4\\muasamtt_nhom4.module\\muasamthoitrangcode\\san_pham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD566068-4BF4-4AB6-B077-5CF9B5E99446}|MuaSamTT_nhom4.Module\\MuaSamTT_nhom4.Module.csproj|solutionrelative:muasamtt_nhom4.module\\muasamthoitrangcode\\san_pham.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF269A93-EFB9-46CA-816A-508DE1C4C09B}|MuaSamTT_nhom4.Blazor.Server\\MuaSamTT_nhom4.Blazor.Server.csproj|d:\\.net\\muasamtt-nhom4\\muasamtt_nhom4.blazor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF269A93-EFB9-46CA-816A-508DE1C4C09B}|MuaSamTT_nhom4.Blazor.Server\\MuaSamTT_nhom4.Blazor.Server.csproj|solutionrelative:muasamtt_nhom4.blazor.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HOA_DON.Designer.cs",
+              "DocumentMoniker": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\HOA_DON.Designer.cs",
+              "RelativeDocumentMoniker": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\HOA_DON.Designer.cs",
+              "ToolTip": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\HOA_DON.Designer.cs",
+              "RelativeToolTip": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\HOA_DON.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T08:18:31.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "THONG_KE.Designer.cs",
+              "DocumentMoniker": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\THONG_KE.Designer.cs",
+              "RelativeDocumentMoniker": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\THONG_KE.Designer.cs",
+              "ToolTip": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\THONG_KE.Designer.cs",
+              "RelativeToolTip": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\THONG_KE.Designer.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwD4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:47:09.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CT_DAT_HANG.Designer.cs",
+              "DocumentMoniker": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\CT_DAT_HANG.Designer.cs",
+              "RelativeDocumentMoniker": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\CT_DAT_HANG.Designer.cs",
+              "ToolTip": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\CT_DAT_HANG.Designer.cs",
+              "RelativeToolTip": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\CT_DAT_HANG.Designer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwEQAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:10:52.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SAN_PHAM.Designer.cs",
+              "DocumentMoniker": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\SAN_PHAM.Designer.cs",
+              "RelativeDocumentMoniker": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\SAN_PHAM.Designer.cs",
+              "ToolTip": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\SAN_PHAM.Designer.cs",
+              "RelativeToolTip": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\SAN_PHAM.Designer.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:11:25.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "KHACH_HANG.Designer.cs",
+              "DocumentMoniker": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\KHACH_HANG.Designer.cs",
+              "RelativeDocumentMoniker": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\KHACH_HANG.Designer.cs",
+              "ToolTip": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\KHACH_HANG.Designer.cs",
+              "RelativeToolTip": "MuaSamTT_nhom4.Module\\MuaSamThoiTrangCode\\KHACH_HANG.Designer.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T07:11:17.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Blazor.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "MuaSamTT_nhom4.Blazor.Server\\appsettings.json",
+              "ToolTip": "D:\\.net\\MuaSamTT-nhom4\\MuaSamTT_nhom4.Blazor.Server\\appsettings.json",
+              "RelativeToolTip": "MuaSamTT_nhom4.Blazor.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T16:30:19.624Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

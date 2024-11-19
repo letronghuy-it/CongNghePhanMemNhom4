@@ -1,0 +1,12 @@
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\bin\Release\net8.0\MuaSamTT_nhom4.Module.deps.json
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\bin\Release\net8.0\MuaSamTT_nhom4.Module.dll
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\bin\Release\net8.0\MuaSamTT_nhom4.Module.pdb
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.Module.csproj.AssemblyReference.cache
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.Module.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.Module.AssemblyInfoInputs.cache
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.Module.AssemblyInfo.cs
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.Module.csproj.CoreCompileInputs.cache
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.Module.dll
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\refint\MuaSamTT_nhom4.Module.dll
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.Module.pdb
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\ref\MuaSamTT_nhom4.Module.dll

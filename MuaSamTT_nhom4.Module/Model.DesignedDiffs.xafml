@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="MuaSamTT-nhom4">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="@1489b170-c994-4a76-875c-b55a22014a52" Caption="Hoá Đơn" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@d180e44d-b0d1-4620-9c2d-c22b81f0ff0d" Caption="Hoá Đơn" ImageName="BO_Invoice" ViewId="HOA_DON_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@671478d1-577d-4604-a70c-15919ee34141" ImageName="ChartType_Bar3D" Caption="Thống Kê &amp; Đánh Giá" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@e1264577-8134-4c46-8236-fb71a1a23b90" Caption="Đánh Giá" ViewId="DANH_GIA_ListView" IsNewNode="True" />
+          <Item Id="@fae1dad8-7a1d-49f5-ae3e-e60251381bc6" Caption="Thống Kê" ViewId="THONG_KE_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@9f0f70c2-6c4a-44c6-a54e-22a2ffe3a923" Caption="Hàng" ImageName="BO_Product_Group" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@2929f2c9-e6f2-4971-b631-af24bfce715b" Caption="Danh Mục" ViewId="DANH_MUC_ListView" IsNewNode="True" />
+          <Item Id="@45f65ad0-e63c-422b-9003-d8ec9060c79c" Caption="Sản Phẩm" ViewId="SAN_PHAM_ListView" IsNewNode="True" />
+          <Item Id="@f9b5259c-1f53-4d19-b116-6eeff0aa06c9" Caption="Thương Hiệu" ViewId="THUONG_HIEU_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@cfc2fe7f-8e41-401a-b446-8923e1ec5cb2" Caption="Người Dùng" ImageName="BO_Customer" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@188f2bf7-4dd4-4410-b9e5-2ccc43637e03" Caption="Khách Hàng" ViewId="KHACH_HANG_ListView" IsNewNode="True" />
+          <Item Id="@f48c9137-0fb1-44be-88eb-b8fabc3ad9b9" Caption="Nhân Viên" ViewId="NHAN_VIEN_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+      <Item Id="@d81c936e-56d4-42fd-a352-863d91a3ed54" Caption="Đơn Hàng" ImageName="BO_Sale" IsNewNode="True">
+        <Items IsNewNode="True">
+          <Item Id="@a8586ee6-a4cf-455e-a1ff-e5622f9d24be" Caption="Đặt Hàng" ViewId="DAT_HANG_ListView" IsNewNode="True" />
+          <Item Id="@ba353c10-601f-4899-832a-2dc0ec7e6284" Caption="Chi Tiết Đặt Hàng" ViewId="CT_DAT_HANG_ListView" IsNewNode="True" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="24.1.7.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="CT_DAT_HANG_ListView" AllowEdit="True" NewItemRowPosition="Top" MasterDetailView="" />
+    <ListView Id="DANH_GIA_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="DANH_MUC_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="DANH_MUC_SAN_PHAMs_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="DAT_HANG_CT_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="DAT_HANG_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="HOA_DON_CT_DAT_HANGs_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="HOA_DON_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="KHACH_HANG_DANH_GIAs_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="KHACH_HANG_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="KHACH_HANG_HOA_DONs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="KHACH_HANG_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="NHAN_VIEN_HOA_DONs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="NHAN_VIEN_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="NHAN_VIEN_THONG_KEs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="SAN_PHAM_CT_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="SAN_PHAM_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="THONG_KE_CT_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="THONG_KE_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="THONG_KE_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="THUONG_HIEU_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+    <ListView Id="THUONG_HIEU_SAN_PHAMs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+  </Views>
+</Application>

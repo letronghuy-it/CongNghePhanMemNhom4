@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuaSamTT_nhom4.Module", "MuaSamTT_nhom4.Module\MuaSamTT_nhom4.Module.csproj", "{DD566068-4BF4-4AB6-B077-5CF9B5E99446}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MuaSamTT_nhom4.Blazor.Server", "MuaSamTT_nhom4.Blazor.Server\MuaSamTT_nhom4.Blazor.Server.csproj", "{EF269A93-EFB9-46CA-816A-508DE1C4C09B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EasyTest|Any CPU = EasyTest|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD566068-4BF4-4AB6-B077-5CF9B5E99446}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD566068-4BF4-4AB6-B077-5CF9B5E99446}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD566068-4BF4-4AB6-B077-5CF9B5E99446}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{DD566068-4BF4-4AB6-B077-5CF9B5E99446}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{DD566068-4BF4-4AB6-B077-5CF9B5E99446}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD566068-4BF4-4AB6-B077-5CF9B5E99446}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF269A93-EFB9-46CA-816A-508DE1C4C09B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF269A93-EFB9-46CA-816A-508DE1C4C09B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF269A93-EFB9-46CA-816A-508DE1C4C09B}.EasyTest|Any CPU.ActiveCfg = EasyTest|Any CPU
+		{EF269A93-EFB9-46CA-816A-508DE1C4C09B}.EasyTest|Any CPU.Build.0 = EasyTest|Any CPU
+		{EF269A93-EFB9-46CA-816A-508DE1C4C09B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF269A93-EFB9-46CA-816A-508DE1C4C09B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
