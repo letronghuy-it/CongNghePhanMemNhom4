@@ -13,30 +13,12 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using DevExpress.ExpressApp;
 namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
 {
-   
+
     [DefaultProperty("TenKH")]
     public partial class KHACH_HANG : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        protected override void OnDeleting()
-        {
-
-            if (DANH_GIAs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Khách Hàng  này vì nó liên quan đến các Đánh Giá Trong Hệ Thống!");
-            }
-            if (HOA_DONs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Khách Hàng này vì nó liên quan đến các Hoá Đơn Đặt Trong Hệ Thống!");
-            }
-            if (DAT_HANGs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Khách Hàng này vì nó liên quan đến các Đặt Hàng Đặt Trong Hệ Thống!");
-            }
-            base.OnDeleting();
-        }
         string fMaKH;
         [DevExpress.Xpo.DisplayName(@"Mã Khách Hàng")]
         public string MaKH
@@ -45,29 +27,27 @@ namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
             set { SetPropertyValue<string>(nameof(MaKH), ref fMaKH, value); }
         }
         string fTenKH;
-        [DevExpress.Xpo.DisplayName(@"Họ Tên Khách Hàng")]
+        [DevExpress.Xpo.DisplayName(@"Tên Khách hàng")]
         public string TenKH
         {
             get { return fTenKH; }
             set { SetPropertyValue<string>(nameof(TenKH), ref fTenKH, value); }
         }
         string fSoDT;
-
-        [DevExpress.Xpo.DisplayName(@"Số Điện Thoại")]
+        [DevExpress.Xpo.DisplayName(@"Số điện thoại")]
         public string SoDT
         {
             get { return fSoDT; }
             set { SetPropertyValue<string>(nameof(SoDT), ref fSoDT, value); }
         }
         string fDiaChi;
-        [DevExpress.Xpo.DisplayName(@"Địa Chỉ")]
+        [DevExpress.Xpo.DisplayName(@"Địa chỉ")]
         public string DiaChi
         {
             get { return fDiaChi; }
             set { SetPropertyValue<string>(nameof(DiaChi), ref fDiaChi, value); }
         }
         string fGhiChu;
-        [DevExpress.Xpo.DisplayName(@"Ghi Chú")]
         public string GhiChu
         {
             get { return fGhiChu; }

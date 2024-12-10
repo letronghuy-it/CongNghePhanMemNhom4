@@ -13,22 +13,11 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using DevExpress.Persistent.Base;
-using DevExpress.ExpressApp;
 namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
 {
-    [DefaultClassOptions]
+
     public partial class DAT_HANG : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        protected override void OnDeleting()
-        {
-
-            if (CT_DAT_HANGs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Đơn Đặt này vì nó liên quan đến các CT_Đơn Đặt Trong Hệ Thống!");
-            }
-            base.OnDeleting();
-        }
         DAT_HANG fMaDH;
         [DevExpress.Xpo.DisplayName(@"Mã Đặt Hàng")]
         public DAT_HANG MaDH
@@ -60,13 +49,37 @@ DevExpress.ExpressApp.Model.ModelDefault("EditMask", "dd/MM/yyyy HH:mm")]
             get { return fTrangThai; }
             set { SetPropertyValue<string>(nameof(TrangThai), ref fTrangThai, value); }
         }
-        THONG_KE fMaTK;
-        [Association(@"DAT_HANGReferencesTHONG_KE")]
-        [DevExpress.Xpo.DisplayName(@"Mã Thống Kê")]
-        public THONG_KE MaTK
+        decimal fPhíGiaoHang;
+        [DevExpress.Xpo.DisplayName(@"Phí giao hàng")]
+        public decimal PhíGiaoHang
         {
-            get { return fMaTK; }
-            set { SetPropertyValue<THONG_KE>(nameof(MaTK), ref fMaTK, value); }
+            get { return fPhíGiaoHang; }
+            set { SetPropertyValue<decimal>(nameof(PhíGiaoHang), ref fPhíGiaoHang, value); }
+        }
+        DateTime fNgayGiaoDuKien;
+        public DateTime NgayGiaoDuKien
+        {
+            get { return fNgayGiaoDuKien; }
+            set { SetPropertyValue<DateTime>(nameof(NgayGiaoDuKien), ref fNgayGiaoDuKien, value); }
+        }
+        DateTime fNgayGiaoThucTe;
+        public DateTime NgayGiaoThucTe
+        {
+            get { return fNgayGiaoThucTe; }
+            set { SetPropertyValue<DateTime>(nameof(NgayGiaoThucTe), ref fNgayGiaoThucTe, value); }
+        }
+        decimal fTongTien;
+        public decimal TongTien
+        {
+            get { return fTongTien; }
+            set { SetPropertyValue<decimal>(nameof(TongTien), ref fTongTien, value); }
+        }
+        NGUOI_GIAO_HANG fMaNGH;
+        [Association(@"DAT_HANGReferencesNGUOI_GIAO_HANG")]
+        public NGUOI_GIAO_HANG MaNGH
+        {
+            get { return fMaNGH; }
+            set { SetPropertyValue<NGUOI_GIAO_HANG>(nameof(MaNGH), ref fMaNGH, value); }
         }
         [Association(@"CT_DAT_HANGReferencesDAT_HANG"), Aggregated]
         public XPCollection<CT_DAT_HANG> CT_DAT_HANGs { get { return GetCollection<CT_DAT_HANG>(nameof(CT_DAT_HANGs)); } }

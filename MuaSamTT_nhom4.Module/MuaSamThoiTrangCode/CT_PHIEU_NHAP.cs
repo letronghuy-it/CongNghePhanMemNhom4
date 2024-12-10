@@ -8,9 +8,9 @@ using System.Reflection;
 namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
 {
 
-    public partial class THONG_KE
+    public partial class CT_PHIEU_NHAP
     {
-        public THONG_KE(Session session) : base(session) { }
+        public CT_PHIEU_NHAP(Session session) : base(session) { }
         public override void AfterConstruction() { base.AfterConstruction(); }
     }
 

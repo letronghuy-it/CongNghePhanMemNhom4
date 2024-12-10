@@ -10,3 +10,4 @@ D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.M
 D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\refint\MuaSamTT_nhom4.Module.dll
 D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.Module.pdb
 D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\ref\MuaSamTT_nhom4.Module.dll
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Module\obj\Release\net8.0\MuaSamTT_nhom4.Module.sourcelink.json

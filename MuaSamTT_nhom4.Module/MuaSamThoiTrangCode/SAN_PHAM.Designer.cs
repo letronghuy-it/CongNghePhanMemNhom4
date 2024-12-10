@@ -13,42 +13,25 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using DevExpress.Persistent.Base;
-using DevExpress.ExpressApp;
-using DevExpress.Persistent.Validation;
 namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
 {
-    [DefaultClassOptions]
+
     [DefaultProperty("TenSP")]
     public partial class SAN_PHAM : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        protected override void OnDeleting()
-        {
-
-            if (CT_DAT_HANGs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Sản Phẩm này vì nó liên quan đến các CT_ĐƠN Đặt Trong Hệ Thống!");
-            }
-
-            base.OnDeleting();
-        }
         string fMaSP;
-        [DevExpress.Xpo.DisplayName(@"Mã Sản Phẩm")]
-        [RuleUniqueValue(DefaultContexts.Save, CustomMessageTemplate = "Mã Sản Phẩm phải là duy nhất.")]
         public string MaSP
         {
             get { return fMaSP; }
             set { SetPropertyValue<string>(nameof(MaSP), ref fMaSP, value); }
         }
         string fTenSP;
-        [DevExpress.Xpo.DisplayName(@"Tên Sản Phẩm")]
         public string TenSP
         {
             get { return fTenSP; }
             set { SetPropertyValue<string>(nameof(TenSP), ref fTenSP, value); }
         }
         DANH_MUC fMaDM;
-        [DevExpress.Xpo.DisplayName(@"Mã Danh Mục")]
         [Association(@"SAN_PHAMReferencesDANH_MUC")]
         public DANH_MUC MaDM
         {
@@ -56,7 +39,6 @@ namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
             set { SetPropertyValue<DANH_MUC>(nameof(MaDM), ref fMaDM, value); }
         }
         THUONG_HIEU fMaTH;
-        [DevExpress.Xpo.DisplayName(@"Mã Thương Hiệu")]
         [Association(@"SAN_PHAMReferencesTHUONG_HIEU")]
         public THUONG_HIEU MaTH
         {
@@ -64,7 +46,6 @@ namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
             set { SetPropertyValue<THUONG_HIEU>(nameof(MaTH), ref fMaTH, value); }
         }
         decimal fGiaBan;
-        [DevExpress.Xpo.DisplayName(@"Giá Bán")]
         [DevExpress.ExpressApp.Model.ModelDefault("DisplayFormat", "### ### ### ###"),
 DevExpress.ExpressApp.Model.ModelDefault("EditMask", "### ### ### ###")
 ]
@@ -73,19 +54,20 @@ DevExpress.ExpressApp.Model.ModelDefault("EditMask", "### ### ### ###")
             get { return fGiaBan; }
             set { SetPropertyValue<decimal>(nameof(GiaBan), ref fGiaBan, value); }
         }
-        String fDVT;
-        public String DVT
+        string fDVT;
+        public string DVT
         {
             get { return fDVT; }
-            set { SetPropertyValue<String>(nameof(DVT), ref fDVT, value); }
+            set { SetPropertyValue<string>(nameof(DVT), ref fDVT, value); }
         }
         string fMoTa;
-        [DevExpress.Xpo.DisplayName(@"Mô Tả")]
         public string MoTa
         {
             get { return fMoTa; }
             set { SetPropertyValue<string>(nameof(MoTa), ref fMoTa, value); }
         }
+        [Association(@"CT_PHIEU_NHAPReferencesSAN_PHAM")]
+        public XPCollection<CT_PHIEU_NHAP> CT_PHIEU_NHAPs { get { return GetCollection<CT_PHIEU_NHAP>(nameof(CT_PHIEU_NHAPs)); } }
         [Association(@"CT_DAT_HANGReferencesSAN_PHAM"), Aggregated]
         public XPCollection<CT_DAT_HANG> CT_DAT_HANGs { get { return GetCollection<CT_DAT_HANG>(nameof(CT_DAT_HANGs)); } }
     }

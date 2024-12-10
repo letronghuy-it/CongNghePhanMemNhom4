@@ -13,7 +13,6 @@
       <Item Id="@671478d1-577d-4604-a70c-15919ee34141" ImageName="ChartType_Bar3D" Caption="Thống Kê &amp; Đánh Giá" IsNewNode="True">
         <Items IsNewNode="True">
           <Item Id="@e1264577-8134-4c46-8236-fb71a1a23b90" Caption="Đánh Giá" ViewId="DANH_GIA_ListView" IsNewNode="True" />
-          <Item Id="@fae1dad8-7a1d-49f5-ae3e-e60251381bc6" Caption="Thống Kê" ViewId="THONG_KE_ListView" IsNewNode="True" />
         </Items>
       </Item>
       <Item Id="@9f0f70c2-6c4a-44c6-a54e-22a2ffe3a923" Caption="Hàng" ImageName="BO_Product_Group" IsNewNode="True">
@@ -59,12 +58,8 @@
     <ListView Id="KHACH_HANG_ListView" NewItemRowPosition="Top" AllowEdit="True" />
     <ListView Id="NHAN_VIEN_HOA_DONs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
     <ListView Id="NHAN_VIEN_ListView" AllowEdit="True" NewItemRowPosition="Top" />
-    <ListView Id="NHAN_VIEN_THONG_KEs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
     <ListView Id="SAN_PHAM_CT_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
     <ListView Id="SAN_PHAM_ListView" NewItemRowPosition="Top" AllowEdit="True" />
-    <ListView Id="THONG_KE_CT_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
-    <ListView Id="THONG_KE_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
-    <ListView Id="THONG_KE_ListView" AllowEdit="True" NewItemRowPosition="Top" />
     <ListView Id="THUONG_HIEU_ListView" AllowEdit="True" NewItemRowPosition="Top" />
     <ListView Id="THUONG_HIEU_SAN_PHAMs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
   </Views>

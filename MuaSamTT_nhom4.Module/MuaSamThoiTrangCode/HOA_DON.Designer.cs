@@ -13,26 +13,13 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using DevExpress.Persistent.Base;
-using DevExpress.ExpressApp;
-using DevExpress.Persistent.Validation;
 namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
 {
-    [DefaultClassOptions]
+
     public partial class HOA_DON : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        protected override void OnDeleting()
-        {
-
-            if (CT_DAT_HANGs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Hoá Đơn này vì nó liên quan đến các CT_Đơn Đặt Trong Hệ Thống!");
-            }
-            base.OnDeleting();
-        }
         string fMaHD;
         [DevExpress.Xpo.DisplayName(@"Mã Hoá Đơn")]
-        [RuleUniqueValue(DefaultContexts.Save, CustomMessageTemplate = "Mã Hoá Đơn phải là duy nhất.")]
         public string MaHD
         {
             get { return fMaHD; }
@@ -64,21 +51,15 @@ DevExpress.ExpressApp.Model.ModelDefault("EditMask", "dd/MM/yyyy HH:mm")]
             set { SetPropertyValue<NHAN_VIEN>(nameof(MaNV), ref fMaNV, value); }
         }
         decimal fTongTien;
+        [PersistentAlias("CT_DAT_HANGs.Sum(ct => ct.ThanhTien)")]
         [DevExpress.Xpo.DisplayName(@"Tổng Tiền")]
-        [DevExpress.ExpressApp.Model.ModelDefault("DisplayFormat", "### ### ### ###"),
-        DevExpress.ExpressApp.Model.ModelDefault("EditMask", "### ### ### ###")]
         public decimal TongTien
         {
-            get {
-                decimal Sum = 0;
-                foreach (CT_DAT_HANG item in CT_DAT_HANGs)
-                {
-                    Sum += item.ThanhTien;
-                }
-                
-                return Sum; 
-            
+            get
+            {
+                return Convert.ToDecimal(EvaluateAlias(nameof(TongTien)));
             }
+
             set { SetPropertyValue<decimal>(nameof(TongTien), ref fTongTien, value); }
         }
         [Association(@"CT_DAT_HANGReferencesHOA_DON"), Aggregated]

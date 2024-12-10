@@ -223,3 +223,4 @@ D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Blazor.Server\obj\Release\net8.0\refint\Mu
 D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Blazor.Server\obj\Release\net8.0\MuaSamTT_nhom4.Blazor.Server.pdb
 D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Blazor.Server\obj\Release\net8.0\MuaSamTT_nhom4.Blazor.Server.genruntimeconfig.cache
 D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Blazor.Server\obj\Release\net8.0\ref\MuaSamTT_nhom4.Blazor.Server.dll
+D:\.net\MuaSamTT-nhom4\MuaSamTT_nhom4.Blazor.Server\obj\Release\net8.0\MuaSamTT_nhom4.Blazor.Server.sourcelink.json

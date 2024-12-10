@@ -13,27 +13,14 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using DevExpress.ExpressApp;
-using DevExpress.Persistent.Validation;
 namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
 {
 
     [DefaultProperty("TenDM")]
     public partial class DANH_MUC : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        protected override void OnDeleting()
-        {
-
-            if (SAN_PHAMs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Danh Mục này vì nó liên quan đến các Sản Phẩm Trong Hệ Thống!");
-            }
-            base.OnDeleting();
-        }
         string fMaDM;
         [DevExpress.Xpo.DisplayName(@"Mã Danh Mục")]
-        [RuleUniqueValue(DefaultContexts.Save, CustomMessageTemplate = "Mã Danh Mục phải là duy nhất.")]
-
         public string MaDM
         {
             get { return fMaDM; }

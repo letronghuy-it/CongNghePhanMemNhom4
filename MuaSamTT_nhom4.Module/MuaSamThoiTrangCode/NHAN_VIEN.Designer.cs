@@ -13,32 +13,14 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using DevExpress.Persistent.Base;
-using DevExpress.ExpressApp;
-using DevExpress.Persistent.Validation;
 namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
 {
-    [DefaultClassOptions]
+
     [DefaultProperty("TenNV")]
     public partial class NHAN_VIEN : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        protected override void OnDeleting()
-        {
-
-            if (HOA_DONs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Nhân Viên này vì nó liên quan đến các Hoá Đơn Trong Hệ Thống!");
-            }
-            if (THONG_KEs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Nhân Viên này vì nó liên quan đến các Thống Kê Đặt Trong Hệ Thống!");
-            }
-           
-            base.OnDeleting();
-        }
         string fMaNV;
         [DevExpress.Xpo.DisplayName(@"Mã Nhân Viên")]
-        [RuleUniqueValue(DefaultContexts.Save, CustomMessageTemplate = "Mã Nhân Viên phải là duy nhất.")]
         public string MaNV
         {
             get { return fMaNV; }
@@ -79,10 +61,10 @@ namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
             get { return fGhiChu; }
             set { SetPropertyValue<string>(nameof(GhiChu), ref fGhiChu, value); }
         }
+        [Association(@"PHIEU_NHAP_HANGReferencesNHAN_VIEN")]
+        public XPCollection<PHIEU_NHAP_HANG> PHIEU_NHAP_HANGs { get { return GetCollection<PHIEU_NHAP_HANG>(nameof(PHIEU_NHAP_HANGs)); } }
         [Association(@"HOA_DONReferencesNHAN_VIEN"), Aggregated]
         public XPCollection<HOA_DON> HOA_DONs { get { return GetCollection<HOA_DON>(nameof(HOA_DONs)); } }
-        [Association(@"THONG_KEReferencesNHAN_VIEN"), Aggregated]
-        public XPCollection<THONG_KE> THONG_KEs { get { return GetCollection<THONG_KE>(nameof(THONG_KEs)); } }
     }
 
 }

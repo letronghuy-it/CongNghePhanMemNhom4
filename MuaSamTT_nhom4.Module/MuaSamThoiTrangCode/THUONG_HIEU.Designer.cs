@@ -13,26 +13,14 @@ using DevExpress.Data.Filtering;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Reflection;
-using DevExpress.ExpressApp;
-using DevExpress.Persistent.Validation;
 namespace MuaSamTT_nhom4.Module.MuaSamThoiTrang
 {
 
     [DefaultProperty("TenTH")]
     public partial class THUONG_HIEU : DevExpress.Persistent.BaseImpl.BaseObject
     {
-        protected override void OnDeleting()
-        {
-            if (SAN_PHAMs.Count > 0)
-            {
-                throw new UserFriendlyException("Không thể xoá Thương Hiệu này vì nó liên quan đến các Sản Phẩm Trong Hệ Thống!");
-            }
-            base.OnDeleting();
-        }
         string fMaTH;
         [DevExpress.Xpo.DisplayName(@"Mã Thương Hiệu")]
-        [RuleUniqueValue(DefaultContexts.Save, CustomMessageTemplate = "Mã Thương Hiệu phải là duy nhất.")]
-
         public string MaTH
         {
             get { return fMaTH; }

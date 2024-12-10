@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <Views Id="Views">
+    <ListView Id="NHAN_VIEN_THONG_KEs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="THONG_KE_CT_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="THONG_KE_DAT_HANGs_ListView" NewItemRowPosition="Top" AllowEdit="True" />
+    <ListView Id="THONG_KE_ListView" AllowEdit="True" NewItemRowPosition="Top" />
+  </Views>
+</Application>
